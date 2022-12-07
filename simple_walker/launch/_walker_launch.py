@@ -29,7 +29,7 @@ def generate_launch_description():
 
     recorder = ExecuteProcess(
         condition=IfCondition(LaunchConfiguration('record_bag')),
-            cmd=['ros2', 'bag', 'record', '-a'],
+            cmd=['ros2', 'bag', 'record', '-a', '-x', '/camera/*'],
         shell=True
     )
 
