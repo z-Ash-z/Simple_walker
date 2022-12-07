@@ -87,7 +87,7 @@ ros2 launch simple_walker _walker_launch.py
 ```
 ros2 bag record --all -o package_output
 ```
-- A sample of the results are stored in the [results/record_all](/simple_walker/results/rosbag) folder. 
+- A sample of the results are stored in the [results/rosbag](/simple_walker/results/rosbag) folder. 
 
 ## Running CPP lint
 - For style guide analysis, from the root directory of the project, run:
