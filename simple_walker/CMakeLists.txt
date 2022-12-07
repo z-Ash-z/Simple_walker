@@ -33,7 +33,7 @@ install(TARGETS walker DESTINATION lib/${PROJECT_NAME})
 #-------- Turtlebot walker : end ---------
 
 # For launch file
-# install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
 
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
